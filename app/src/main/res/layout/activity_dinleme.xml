@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityler.TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonA_dinleme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:backgroundTint="@color/gri"
+                    android:padding="5dp"
+                    android:text="A)"
+                    android:textColor="@color/black"
+                    tools:layout_editor_absoluteX="151dp"
+                    tools:layout_editor_absoluteY="209dp" />
+
+                <Button
+                    android:id="@+id/buttonB_dinleme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:backgroundTint="@color/gri"
+                    android:padding="5dp"
+                    android:text="B)"
+                    android:textColor="@color/black"
+                    tools:layout_editor_absoluteX="151dp"
+                    tools:layout_editor_absoluteY="289dp" />
+
+                <Button
+                    android:id="@+id/buttonC_dinleme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:backgroundTint="@color/gri"
+                    android:padding="5dp"
+                    android:text="C)"
+                    android:textColor="@color/black"
+                    tools:layout_editor_absoluteX="151dp"
+                    tools:layout_editor_absoluteY="359dp" />
+
+                <Button
+                    android:id="@+id/buttonD_dinleme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:backgroundTint="@color/gri"
+                    android:padding="5dp"
+                    android:text="D)"
+                    android:textColor="@color/black"
+                    tools:layout_editor_absoluteX="151dp"
+                    tools:layout_editor_absoluteY="433dp" />
+
+                <TextView
+                    android:id="@+id/textView_dogru_cevap_dinleme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/textview_arama"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/button_dinleme_sonraki"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/textview_arama"
+            android:padding="5dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:textSize="96sp" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sonraki"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton_dinleme_ses"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/imagebutton_dinle"
+            android:padding="5dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/ic_baseline_volume_up_24" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinle"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>
